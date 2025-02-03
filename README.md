@@ -11,3 +11,10 @@ Sobe um servidor e disponibiliza na rede local
 
 Formata código `task format`
 
+Migrations
+`alembic init migrations`
+`alembic revision --autogenerate -m "create todos table"`
+`alembic upgrade head`
+
+Rodar teste e pausar no erro e debugar
+`task test -x --pdb`
